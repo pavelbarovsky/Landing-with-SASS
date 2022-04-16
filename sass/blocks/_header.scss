@@ -1,0 +1,35 @@
+.header {
+
+}
+
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text {
+    width: 465px;
+}
+
+.header__title {
+    font-size: 54px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    line-height: 1.46;
+    margin-right: -160px;
+
+    // вынести на уровень выше (чтобы перекрывало картинку)
+    position: relative;  
+    z-index: 9;
+}
+
+.header__text p {
+    line-height: 1.6875;
+    margin-bottom: 1em;
+}
+
+.header__img {
+
+}

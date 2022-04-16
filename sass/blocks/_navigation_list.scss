@@ -1,0 +1,22 @@
+.navigation-list {
+    ul {
+        display: flex;
+    }
+        li:not(:last-child) { // у последнего элемента убираем отступ
+            margin-right: 42px;
+    }
+
+    a {
+        color: #323232;
+        text-decoration: none;
+
+        &:hover {
+            color: #f78434;
+        }
+
+        &.active {
+            color: #f78434;
+            font-weight: 700;
+        }
+    }
+}
